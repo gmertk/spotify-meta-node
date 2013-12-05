@@ -1,0 +1,13 @@
+{
+	"baseurl": "http://ws.spotify.com/",
+	"methods": {
+		"search": {
+			"album": {"resource": "search/1/album", "type": "get" },
+			"artist": {"resource": "search/1/artist", "type": "get" },
+			"track": {"resource": "search/1/track", "type": "get" }
+		},
+		"lookup": {
+			"": {"resource": "lookup/1/", "type": "get"}
+		}
+	}
+}
